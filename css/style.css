@@ -1,0 +1,142 @@
+body {
+  background-color: #1a1b26;
+  color: #c0caf5;
+  font-family: "Jetbrains Mono", monospace;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size: 24px;
+  line-height: 1.5;
+  padding: 20px;
+}
+
+.fa-discord {
+  font-size: 20px;
+}
+
+.line {
+  display: flex;
+}
+
+.left {
+  width: 1em;
+  padding-left: 0.5em;
+  flex-shrink: 0;
+  text-align: left;
+  color: #484d65;
+  border-right: solid 1px #484d65;
+}
+
+.currentline {
+  color: #c0caf5;
+  width: 1.5em;
+  border-right: solid 1px #484d65;
+}
+
+.color {
+  color: #8fbc8f;
+}
+
+.right {
+  padding-left: 0.5em;
+}
+
+.right.comment {
+  font-style: italic;
+  color: #565f89;
+}
+
+a {
+  color: #c0caf5;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #7aa2f7;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+.cursor {
+  animation: blink-animation 1.2s steps(2, start) infinite;
+  background-color: #c0caf5;
+  height: 1.2em;
+  width: 0.6em;
+}
+
+.statusline {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  padding: 0.5em;
+  padding-top: 0;
+  font-size: 18px;
+  background-color: #1a1b26;
+}
+
+.first {
+  background-color: #9ece6a;
+  color: #1a1b26;
+  padding: 0.2em 0.5em;
+}
+
+.second {
+  background-color: #3b4261;
+  color: #9ece6a;
+  padding: 0.2em 0.5em;
+}
+
+.space {
+  flex-grow: 100;
+  background-color: #16161e;
+  padding: 0.2em 0.5em;
+}
+
+.fileinfo {
+  background-color: #16161e;
+  padding: 0.2em 0.5em;
+}
+
+.eob {
+  color: #484d65;
+}
+
+@media all and (max-width: 480px) {
+  .content {
+    font-size: 14px;
+  }
+
+  .fa-discord {
+    font-size: 11.5px;
+  }
+
+  .statusline {
+    font-size: 8px;
+  }
+}
