@@ -2,113 +2,57 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Edwin's site</title>
-  <meta property="og:title" content="Edwin's site" />
-  <meta property="og:image" content="https://edwin-lh.is-a.dev/assets/images/bg.png" />
-  <meta property="og:url" content="https://edwin-lh.is-a.dev" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="627" />
-  <meta property="og:type" content="website" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" />
-  <link href="css/style.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Edwin's site</title>
+	<meta property="og:title" content="Edwin's site" />
+	<meta property="og:image" content="https://edwin-lh.is-a.dev/assets/images/bg.png" />
+	<meta property="og:url" content="https://edwin-lh.is-a.dev" />
+	<meta property="og:type" content="website" />
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+		rel="stylesheet" />
+	<link href="css/style.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+		integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-  <div class="content">
-    <div class="line">
-      <div class="left">7</div>
-      <div class="right">Hello! I'm Edwin</div>
-    </div>
-    <div class="line">
-      <div class="left">6</div>
-      <div class="right"></div>
-    </div>
-    <div class="line">
-      <div class="left">5</div>
-      <div class="right comment">&lt;!-- about me --&gt;</div>
-    </div>
-    <div class="line">
-      <div class="left">4</div>
-      <div class="right">a mobile developer from Indonesia.</div>
-    </div>
-    <div class="line">
-      <div class="left">3</div>
-      <div class="right">I enjoy creating software, solving problems,</div>
-    </div>
-    <div class="line">
-      <div class="left">2</div>
-      <div class="right">and ricing my linux desktop.</div>
-    </div>
-    <div class="line">
-      <div class="left">1</div>
-      <div class="right"></div>
-    </div>
-    <div class="line">
-      <p class="currentline">8</p>
-      <div class="right">
-        <div class="cursor"></div>
-      </div>
-    </div>
-    <div class="line">
-      <div class="left">1</div>
-      <div class="right"><i class="fa-brands fa-discord"></i> ezerinz</div>
-    </div>
-    <div class="line">
-      <div class="left">2</div>
-      <div class="right">
-        <a href="https://github.com/ezerinz"><i class="fa-brands fa-github"></i> github/ezerinz</a>
-      </div>
-    </div>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-    <p class="eob">~</p>
-  </div>
-  <div class="statusline">
-    <div class="first" , style="color: #1a1b26">INSERT</div>
-    <div class="second">
-      <i class="fa-solid fa-code-branch"></i>
-      main
-    </div>
-    <div class="space">readme.MD</div>
-    <div class="fileinfo">utf-8 | <i class="fa-brands fa-linux"></i></div>
-    <div class="second">80%</div>
-    <div class="first">8:1</div>
-  </div>
+	<div class="container" , id="container">
+		<div id="content"></div>
+		<div class="statusline-container">
+			<div class="statusline">
+				<!-- left side -->
+				<div class="left-side">
+					<div class="mode">INSERT</div>
+					<div class="branch">
+						<div class="curvy-section"></div>
+						<div class="text">
+							<i class="fa-solid fa-code-branch"></i>
+							main
+						</div>
+					</div>
+					<div class="filename">readme.MD</div>
+				</div>
+				<!-- end of left side -->
+
+				<!-- rightside -->
+				<div class="right-side">
+					<div class="position-percent">
+						<div class="text"></div>
+						<div class="curvy-section"></div>
+					</div>
+					<div class="position"></div>
+				</div>
+				<!-- end of right side-->
+			</div>
+		</div>
+		<!-- end of statusline -->
+	</div>
+	<script src="js/script.js"></script>
 </body>
 
 </html>
